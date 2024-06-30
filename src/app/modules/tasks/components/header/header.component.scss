@@ -1,0 +1,35 @@
+@import '../../../../../assets/style/scss/partials/global-mixins';
+
+nav {
+  padding: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .search-input-container {
+    position: relative;
+
+    img {
+      position: absolute;
+      inset-block-start: 4px;
+      inset-inline-end: 5px;
+    }
+  }
+
+  .profile-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 6%;
+
+    .lang {
+      font-weight: bold;
+    }
+
+    .profile-picture {
+      width: 30px;
+      height: 30px;
+      @include border-radius(50%);
+    }
+  }
+}

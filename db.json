@@ -1,0 +1,66 @@
+{
+  "users": [
+    {
+      "id": "eedd",
+      "name": "Muhammad",
+      "email": "m@gmail.com",
+      "password": "Mm123456"
+    },
+    {
+      "id": "977b",
+      "name": "Kamel",
+      "email": "k@gmail.com",
+      "password": "Kk123456"
+    },
+    {
+      "id": "f016",
+      "name": "Yahia",
+      "email": "y@gmail.com",
+      "password": "Yy123456"
+    },
+    {
+      "id": "d583",
+      "name": "Yusuf",
+      "email": "yoyo@gmail.com",
+      "password": "Yoyo1234"
+    }
+  ],
+  "tasks": [
+    {
+      "name": "Task 1",
+      "imgSrc": "https://images.pexels.com/photos/906150/pexels-photo-906150.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est rem ipsam sapiente modi dolorum quia harum magni iure aspernatur consequatur quas cupiditate pariatur",
+      "id": "asdf"
+    },
+    {
+      "id": "sdg",
+      "name": "Task 2",
+      "imgSrc": "https://images.pexels.com/photos/906150/pexels-photo-906150.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est rem ipsam sapiente modi dolorum quia harum magni iure aspernatur consequatur quas cupiditate pariatur"
+    },
+    {
+      "id": "drfgd",
+      "name": "Task 3",
+      "imgSrc": "https://images.pexels.com/photos/906150/pexels-photo-906150.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est rem ipsam sapiente modi dolorum quia harum magni iure aspernatur consequatur quas cupiditate pariatur"
+    },
+    {
+      "id": "ergr",
+      "name": "Task 4",
+      "imgSrc": "https://images.pexels.com/photos/906150/pexels-photo-906150.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est rem ipsam sapiente modi dolorum quia harum magni iure aspernatur consequatur quas cupiditate pariatur"
+    },
+    {
+      "name": "Task 5",
+      "imgSrc": "https://images.pexels.com/photos/906150/pexels-photo-906150.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est rem ipsam sapiente modi dolorum quia harum magni iure aspernatur consequatur quas cupiditate pariatur",
+      "id": "ergred"
+    },
+    {
+      "id": "werqgsdf",
+      "name": "Task 6",
+      "imgSrc": "https://images.pexels.com/photos/906150/pexels-photo-906150.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est rem ipsam sapiente modi dolorum quia harum magni iure aspernatur consequatur quas cupiditate pariatur"
+    }
+  ]
+}

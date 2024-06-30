@@ -1,0 +1,11 @@
+@import '../../../../assets/style/scss/partials/global-mixins';
+
+:host {
+  #resgisterForm {
+    margin: 5% auto;
+    width: 30%;
+    padding: 2rem;
+    border: 1px solid #cccccc;
+    @include border-radius(30px);
+  }
+}

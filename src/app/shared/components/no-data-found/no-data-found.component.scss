@@ -1,0 +1,28 @@
+:host {
+
+  .no-data-found-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .search-img {
+      margin-bottom: 2.5rem;
+    }
+
+    .no-data-found {
+      font-size: 2.2rem;
+      font-weight: bold;
+      line-height: 1;
+      text-align: center;
+    }
+
+    .no-data-found-message {
+      font-size: 1.4rem;
+      line-height: 1.71;
+      text-align: center;
+      color: #969696;
+    }
+  }
+
+}

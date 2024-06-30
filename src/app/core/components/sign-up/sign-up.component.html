@@ -1,0 +1,28 @@
+<!-- Registration Form -->
+<form id="resgisterForm" [formGroup]="resgisterForm" (ngSubmit)="register()" [ngClass]="{'rtl' : translation.rtl}">
+  <!-- Name -->
+  <div class="form-group mb-2">
+    <label class="mb-2">{{'signUp.name' | translate}}</label>
+    <app-input [control]="name" [placeholder]="'signUp.namePlaceholder' | translate"></app-input>
+  </div>
+  <!-- Email -->
+  <div class="form-group mb-2">
+    <label class="mb-2">{{'signUp.email' | translate}}</label>
+    <app-input [control]="email" [type]="'email'" [placeholder]="'signUp.emailPlaceholder' | translate"></app-input>
+  </div>
+  <!-- Password -->
+  <div class="form-group mb-2">
+    <label class="mb-2">{{'signUp.password' | translate}}</label>
+    <app-input [control]="password" [type]="'password'"
+      [placeholder]="'signUp.passwordPlaceholder' | translate"></app-input>
+  </div>
+  <!-- Confirm Password -->
+  <div class="form-group mb-2">
+    <label class="mb-2">{{'signUp.confirmPassword' | translate}}</label>
+    <app-input [control]="confirmPassword" [type]="'password'"
+      [placeholder]="'signUp.confirmPassword' | translate"></app-input>
+  </div>
+  <button type="submit" class="btn btn-primary mb-2" [disabled]="resgisterForm.invalid || inSubmission">
+    {{'signUp.submit' |translate}}
+  </button>
+</form>

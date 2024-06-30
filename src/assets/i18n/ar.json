@@ -1,0 +1,89 @@
+{
+  "login": {
+    "email": "البريد الإلكترونى",
+    "emailPlaceholder": "ادخل البريد الإلكترونى",
+    "password": "كلمة المرور",
+    "passwordPlaceholder": "ادخل كلمة المرور",
+    "login": "تسجيل الدخول",
+    "register": "سجِّل",
+    "notMember": "لست عضوا",
+    "targetLang": "EN",
+    "waitMessage": "انتظر من فضلك! نحن نقوم بتسجيل دخولك.",
+    "waiting": "انتظار",
+    "successMessage": "تم تسجيل دخولك بنجاح.",
+    "success": "تم بنجاح"
+  },
+  "signUp": {
+    "name": "الاسم",
+    "namePlaceholder": "ادخل الاسم",
+    "email": "البريد الإلكترونى",
+    "emailPlaceholder": "ادخل البريد الإلكترونى",
+    "password": "كلمة المرور",
+    "passwordPlaceholder": "ادخل كلمة المرور",
+    "confirmPassword": "تأكيد كلمة المرور",
+    "submit": "تسجيل",
+    "waitMessage": "انتظر من فضلك! جارٍ إنشاء حسابك.",
+    "waiting": "انتظار",
+    "successMessage": "تم إنشاء حسابك بنجاح",
+    "success": "تم بنجاح"
+  },
+  "tasks": {
+    "tasks": "المهمات",
+    "newTask": "مهمة جديدة",
+    "addTask": "إضافة مهمة",
+    "editTask": "تعديل المهمة",
+    "header": {
+      "searchPlaceholder": "بحث"
+    }
+  },
+  "home": {
+    "title": " مراقب المهام.",
+    "logout": "تسجيل الخروج",
+    "toggleSidenav": "اخفاء/إظهار شريط المهام",
+    "dashboard": "لوحة التحكم",
+    "projects": "المشاريع",
+    "tasks": "المهمات",
+    "calender": "التقويم"
+  },
+  "pageNotFound": {
+    "code": "404",
+    "message": "لم يتم العثور على الصفحة المطلوبة",
+    "goBack": "عد للصفحة السابقة"
+  },
+  "noDataFound": {
+    "title": "لم يتم العثور على بيانات",
+    "message": "جرب كلمات بحث أخرى"
+  },
+  "error": {
+    "errorMessage": "حدث خطأ غير متوقع. الرجاء معاودة المحاولة في وقت لاحق.",
+    "error": "خطأ"
+  },
+  "taskDialog": {
+    "name": "الاسم",
+    "namePlaceholder": "ادخل اسم المهمة",
+    "description": "الوصف",
+    "descriptionPlaceholder": "ادخل وصف المهمة",
+    "imageURL":"رابط الصورة",
+    "imageURLPlaceholder":"ادخل رابط الصورة",
+    "cancel":"إلغاء",
+    "submit":"تقديم",
+    "task":"المهمة",
+    "successCreate":"تم إنشاء المهمة بنجاح",
+    "successUpdate":"تم تعديل المهمة بنجاح",
+    "error":"خطأ"
+  },
+  "generalDialog": {
+    "cancel":"إلغاء",
+    "ok":"موافق",
+    "deleteTask": "حذف المهمة",
+    "confirmDeleteTask": "هل أنت متأكد أنك تريد حذف هذه المهمة ؟",
+    "errorDeleteMessage":"حدث خطأ ولم يتم حذف المهمة",
+    "successDelete":"تم حذف المهمة بنجاح",
+    "task":"المهمة",
+    "error":"خطأ"
+  },
+  "inputField": {
+    "required": "الحقل إلزامى",
+    "validEmail": "يجب عليك إدخال بريد إلكترونى صحيح"
+  }
+}

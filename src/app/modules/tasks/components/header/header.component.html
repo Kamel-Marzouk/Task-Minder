@@ -1,0 +1,14 @@
+<nav class="navbar container bg-body-tertiary">
+  <div class="search-input-container w-75">
+    <input class="form-control me-2" type="text" [value]="searchValue"
+      [placeholder]="'tasks.header.searchPlaceholder' | translate" aria-label="Search" (keyup)="onKey($event)">
+    <img *ngIf="!searchValue" class="cursor-pointer" src="assets/icons/search.svg" />
+    <img *ngIf="searchValue" class="cursor-pointer" src="assets/icons/close.svg" (click)="clearSearch()" />
+  </div>
+  <div class="profile-container">
+    <!-- Language -->
+    <span class="lang cursor-pointer" (click)="translation.switchLanguage()">{{'login.targetLang'|translate}}</span>
+    <img src="assets/icons/bell.svg" alt="" srcset="">
+    <img class="profile-picture" src="assets/images/profile-picture.png" alt="" srcset="">
+  </div>
+</nav>

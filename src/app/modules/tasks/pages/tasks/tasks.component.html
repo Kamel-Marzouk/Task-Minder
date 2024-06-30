@@ -1,0 +1,14 @@
+<section class="container">
+  <app-header (onSearch)="onKey($event)" (onRemoveSearch)="clearSearch()"></app-header>
+  <main class="container">
+    <header>
+      <h2>{{'tasks.tasks' | translate}}</h2>
+      <button *ngIf="!searchValue" mat-button color="primary" (click)="newTask()"> {{'tasks.newTask' | translate}}</button>
+    </header>
+    <section *ngIf="!noDataFound" class="tasks">
+      <app-task-card class="task" *ngFor="let task of tasks" [task]="task" (editHandler)="editTask(task)"
+        (deleteHandler)="deleteTask(task)"></app-task-card>
+    </section>
+    <app-no-data-found *ngIf="noDataFound"></app-no-data-found>
+  </main>
+</section>

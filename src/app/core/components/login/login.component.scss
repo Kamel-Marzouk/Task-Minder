@@ -1,0 +1,21 @@
+@import '../../../../assets/style/scss/partials/global-mixins';
+
+:host {
+  #loginForm {
+    margin: 10% auto;
+    width: 30%;
+    padding: 2rem;
+    border: 1px solid #cccccc;
+    @include border-radius(30px);
+
+    @media (max-width: 768px) {
+      width: 50%;
+      margin-block: 15%;
+    }
+
+    @media (max-width: 480px) {
+      width: 90%;
+      margin-block: 40%;
+    }
+  }
+}

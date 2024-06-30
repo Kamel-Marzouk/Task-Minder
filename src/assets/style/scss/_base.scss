@@ -1,0 +1,44 @@
+@import '../scss/partials/global-variables';
+@import '../scss/partials/global-mixins';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-size: $defaultFontSize;
+}
+
+a {
+  text-decoration: none;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.container {
+  margin-inline: auto;
+  padding-inline: 1.5rem;
+  zoom: 1;
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 768x) {
+  html {
+    font-size: 8px;
+  }
+}

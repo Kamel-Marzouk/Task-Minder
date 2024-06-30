@@ -1,0 +1,29 @@
+<section [ngClass]="{'rtl' : translation.rtl}">
+  <h3 mat-dialog-title>{{'tasks.'+ title + 'Task' | translate}}</h3>
+
+  <form [formGroup]="TaskForm" (ngSubmit)="onSubmit()">
+    <mat-dialog-content class="mat-typography">
+
+      <mat-form-field>
+        <mat-label>{{'taskDialog.name' |translate}}</mat-label>
+        <input matInput [placeholder]="'taskDialog.namePlaceholder' |translate" formControlName="name" value="">
+      </mat-form-field>
+
+      <mat-form-field>
+        <mat-label>{{'taskDialog.description' |translate}}</mat-label>
+        <input matInput [placeholder]="'taskDialog.descriptionPlaceholder' |translate" formControlName="description" value="">
+      </mat-form-field>
+
+      <mat-form-field>
+        <mat-label>{{'taskDialog.imageURL' |translate}}</mat-label>
+        <input matInput [placeholder]="'taskDialog.imageURLPlaceholder' |translate" formControlName="imgSrc" value="">
+      </mat-form-field>
+
+    </mat-dialog-content>
+
+    <mat-dialog-actions>
+      <button mat-button color="warn" mat-dialog-close>{{'taskDialog.cancel' |translate}}</button>
+      <button mat-button color="primary" type="submit" cdkFocusInitial>{{'taskDialog.submit' |translate}}</button>
+    </mat-dialog-actions>
+  </form>
+</section>

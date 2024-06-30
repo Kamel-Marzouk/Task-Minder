@@ -1,0 +1,10 @@
+<mat-card>
+  <mat-card-header>
+    <img class="task-img" mat-card-image [src]="task?.imgSrc">
+    <mat-card-actions>
+      <img class="cursor-pointer" src="assets/icons/edit.svg" alt="Edit Icon" (click)="edit(task)">
+      <img class="cursor-pointer" src="assets/icons/trash.svg" alt="Delete Icon" (click)="delete(task)">
+    </mat-card-actions>
+  </mat-card-header>
+  <mat-card-content>{{task?.description}}</mat-card-content>
+</mat-card>

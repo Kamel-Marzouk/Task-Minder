@@ -1,0 +1,89 @@
+{
+  "login": {
+    "email": "Email",
+    "emailPlaceholder": "Enter Email",
+    "password": "Password",
+    "passwordPlaceholder": "Password",
+    "login": "Login",
+    "register": "Register",
+    "notMember": "Not a member",
+    "targetLang": "ع",
+    "waitMessage": "Please wait! We are logging you in.",
+    "waiting": "Waiting",
+    "successMessage": "Success! You are now logged in.",
+    "success": "Success"
+  },
+  "signUp": {
+    "name": "Name",
+    "namePlaceholder": "Enter Name",
+    "email": "Email",
+    "emailPlaceholder": "Enter Email",
+    "password": "Password",
+    "passwordPlaceholder": "Password",
+    "confirmPassword": "Confirm Password",
+    "submit": "Submit",
+    "waitMessage": "Please wait! Your account is being created.",
+    "waiting": "Waiting",
+    "successMessage": "Success your account has been created",
+    "success": "Success"
+  },
+  "tasks": {
+    "tasks": "Tasks",
+    "newTask": "New Task",
+    "addTask": "Add Task",
+    "editTask": "Edit Task",
+    "header": {
+      "searchPlaceholder": "Search"
+    }
+  },
+  "home": {
+    "title": "TaskMinder.",
+    "logout": "Logout",
+    "toggleSidenav": "Toggle sidenav",
+    "dashboard": "Dashboard",
+    "projects": "Projects",
+    "tasks": "Tasks",
+    "calender": "Calender"
+  },
+  "pageNotFound": {
+    "code": "404",
+    "message": "The page you requested was not found",
+    "goBack": "Go back to the previous page"
+  },
+  "noDataFound": {
+    "title": "No Data Found",
+    "message": "Try other search keywords."
+  },
+  "error": {
+    "errorMessage": "An unecpected error occured. Please try again later.",
+    "error": "Error"
+  },
+  "taskDialog": {
+    "name": "Name",
+    "namePlaceholder": "Enter Task Name",
+    "description": "Description",
+    "descriptionPlaceholder": "Enter Task description",
+    "imageURL": "Image URL",
+    "imageURLPlaceholder": "Enter Image URL",
+    "cancel": "Cancel",
+    "submit": "Submit",
+    "task":"Task",
+    "successCreate":"Task has been created Successfuly",
+    "successUpdate":"Task has been updated Successfuly",
+    "error":"Error"
+  },
+  "generalDialog": {
+    "cancel": "Cancel",
+    "ok": "Ok",
+    "deleteTask": "Delete Task",
+    "confirmDeleteTask": "Are you sure you want to delete that task ?",
+    "errorDeleteMessage":"An error occurred and the task not delete",
+    "successDelete":"Task has been deleted Successfuly",
+    "task":"Task",
+    "error":"Error"
+  },
+  "inputField": {
+    "required": "Field is required",
+    "validEmail": "You must enter a valid email"
+  }
+}

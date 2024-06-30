@@ -1,0 +1,32 @@
+<mat-drawer-container class="drawer-container" autosize>
+  <mat-drawer #drawer class="drawer-sidenav" mode="side" [(opened)]="opened">
+    <div class="drawer-sidenav-container">
+      <div class="heading">
+        <h2>{{'home.title' | translate}}</h2>
+        <div class="minder-items">
+          <ul>
+            <li *ngFor="let item of items" [ngClass]="{'active':item.active}">
+              <a [routerLink]="item.key">
+                <mat-icon [svgIcon]="item.iconSrc"></mat-icon>
+                <p>{{'home.'+ item.title |translate}}</p>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <button (click)="logout()" mat-flat-button>
+        {{'home.logout' | translate}}
+      </button>
+    </div>
+  </mat-drawer>
+
+
+  <mat-drawer-content class="drawer-sidenav-content" [ngClass]="{'drawer-content-style':translation.rtl}">
+    <button style="display: none;" type="button" mat-button (click)="drawer.toggle()">
+      {{'home.toggleSidenav' | translate}}
+    </button>
+    <app-spinner></app-spinner>
+    <router-outlet></router-outlet>
+  </mat-drawer-content>
+
+</mat-drawer-container>

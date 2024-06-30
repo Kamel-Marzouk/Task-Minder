@@ -1,0 +1,93 @@
+@import '../../../../assets/style/scss/partials/global-variables';
+@import '../../../../assets/style/scss/partials/global-mixins';
+
+.drawer-container {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #cccccc;
+}
+
+.drawer-sidenav-content {
+  height: 100%;
+}
+
+.drawer-sidenav {
+  padding: 20px;
+  border: 1px solid #cccccc;
+  color: black;
+}
+
+ul {
+  list-style-type: none;
+  width: 96%;
+  padding-inline: 8px;
+  margin-block-start: 0;
+  margin-block-end: 20px;
+}
+
+.drawer-sidenav-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  overflow: hidden;
+
+  .heading {
+    h2 {
+      font-size: 2.5rem;
+      color: $mainTextColor;
+    }
+  }
+
+  button {
+    background-color: $buttonbg;
+    color: $buttonText;
+    font-size: 1.6rem;
+    font-weight: 500;
+  }
+}
+
+li {
+  @include border-radius(5px);
+  background-color: #EEF2FC;
+  color: #1d2943;
+}
+
+li a {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  margin-bottom: 1.5rem;
+  padding-inline-end: 3rem;
+  padding-inline-start: 1rem;
+  padding-block: 5px;
+
+  p {
+    margin: unset;
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #14367B;
+  }
+}
+
+mat-icon {
+  fill: #14367B;
+}
+
+.active {
+  background-color: #2563DC;
+
+  mat-icon {
+    fill: #fff;
+  }
+
+  p {
+    color: white !important;
+  }
+}
+
+.drawer-content-style {
+  margin-inline-start: 194px;
+  margin-left: 0px !important;
+}

@@ -1,0 +1,7 @@
+@mixin border-radius($rSize) {
+  border-radius: $rSize;
+  -webkit-border-radius: $rSize;
+  -moz-border-radius: $rSize;
+  -ms-border-radius: $rSize;
+  -o-border-radius: $rSize;
+}

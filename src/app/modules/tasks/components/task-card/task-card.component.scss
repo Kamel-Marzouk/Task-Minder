@@ -1,0 +1,30 @@
+@import '../../../../../assets/style/scss/partials/global-variables';
+@import '../../../../../assets/style/scss/partials/global-mixins';
+
+mat-card{
+  border: 1px solid #CAD9F6;
+}
+
+:host ::ng-deep mat-card-header {
+  justify-content: space-between;
+
+  div {
+    display: none;
+  }
+  .task-img {
+    width: 45px;
+    height: 45px;
+    @include border-radius(50%);
+  }
+}
+
+mat-card-content{
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: $textColor;
+}
+
+mat-card-actions{
+  gap: 1rem;
+}
+

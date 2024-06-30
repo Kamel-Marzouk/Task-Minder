@@ -1,0 +1,26 @@
+@import '../../../../../assets/style/scss/partials/global-variables';
+
+.container {
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    h3 {
+      font-size: 3rem;
+      font-weight: 500;
+      color: $headingColor;
+    }
+  }
+
+  .tasks {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 1rem;
+
+    .task {
+      background-color: #CAD9F6;
+      padding: 1rem;
+    }
+  }
+}

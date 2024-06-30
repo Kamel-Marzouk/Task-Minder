@@ -1,0 +1,17 @@
+<!-- Login Form -->
+<form [formGroup]="loginForm" (ngSubmit)="login()" id="loginForm" [ngClass]="{'rtl' : translation.rtl}">
+  <!-- Email -->
+  <div class="form-group mb-2">
+    <label class="mb-2">{{'login.email' | translate}}</label>
+    <app-input [control]="email" [placeholder]="'login.emailPlaceholder' | translate"></app-input>
+  </div>
+  <!-- Password -->
+  <div class="form-group mb-3">
+    <label class="mb-2">{{'login.password' | translate}}</label>
+    <app-input [control]="password" [type]="'password'" [placeholder]="'login.password' | translate"></app-input>
+  </div>
+  <button type="submit" class="btn btn-primary mb-2" [disabled]="loginForm.invalid || inSubmission">
+    {{'login.login' | translate}}
+  </button>
+  <p>{{'login.notMember' | translate}} <a [routerLink]="['/signUp']"> {{'login.register' | translate}}</a></p>
+</form>
