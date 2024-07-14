@@ -69,7 +69,6 @@ export class TasksComponent implements OnInit {
   }
 
   public deleteTask(task: Task): void {
-    console.log(task);
     const dialogRef = this.dialog.open(GeneralDialogComponent, {
       width: "480px",
       data: task,
